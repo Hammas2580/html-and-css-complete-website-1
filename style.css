@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./image.html/background.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 140px;
+    height: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:aqua;
+    font-weight: 400px;
+    font-size: 20px;
+}
+.btn-b{
+    text-decoration: none;
+    color:black;
+    margin-right: 15px;
+    font-weight: 400;
+    background-color: darkturquoise;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 20px;
+}
+.content{
+    margin-top: 170px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    color: pink;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.cv{
+    margin-top: 25px;
+    padding: 15px;
+    background-color: darkturquoise;
+    border-style: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    color:black;
+
+}
+
+
+
+#hea{
+    text-align: center;
+    color:black;
+    margin-top:10px;
+    font-style: oblique;
+    font-size: 40px;
+}
+.box{
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+    background-color:pink;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+
+}
+p{
+    
+    font-size: 20px;
+    overflow: hidden;
+    
+    font-style: italic;
+    font-weight: 400;
+    color: black;
+}
+h1{
+    margin-top: 60px;
+    font-style: italic;
+    font-size: 50px;
+}
+.heading{
+    width: 100%;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    color: brown;   
+}
+.btn-form{
+    width:150px;
+    padding: 10px;
+    border-style: none;
+    font-size: 25px;
+    margin-top: 20px;
+    color:white;
+    background-color: darkturquoise;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.contact{
+    text-align: center;
+    margin: 40px;
+}
+input{
+    margin: 20px;
+    color: black;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+p{
+    font-style: italic;
+    
+
+}
